@@ -12,11 +12,6 @@
             width: 100%;
         }
 
-        body{
-            background-image:url("https://www.queenstownnz.co.nz/assets/Tourism-Operators/images/New-Year-2016-Esther-smaller5.jpg");
-            background-size:cover;
-            background-repeat: no-repeat;
-        }
 
         h1,
         h2 {
@@ -57,8 +52,10 @@
             text-align: justify;
         }
 
-        .italics{
+        .block-quote{
             font-style: italic;
+            margin: 20px;
+            border: 2px solid gray;
         }
 
         h2 {
@@ -67,6 +64,12 @@
 
         a {
             color: #49BBAC;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            font-size: 50px;
         }
     </style>
 </head>
@@ -79,7 +82,10 @@
         <p>There was a time when people simply didn't know. Actually learning the factual answer to a question took
             work. It involved owning things like expensive encyclopedia sets, or going to a library and hoping that
             they had relevant and current books on the topic you wanted to research. It was tough, back in 1997.</p>
-        <p class="italics">In 2018, however, the whole of human knowledge is at your fingertips. All you have to do is look it up.</p>
+        <div class="block-quote">
+            <p>In 2018, however, the whole of humanknowledge is at your fingertips. All you have to do islook it up.</p>
+        </div>
+        
         <p>Here's how it works: Click <a href="https://google.com" target="_blank">this link</a> and you'll open a new
             tab that contains a Google search bar. Now, think about your question. Let's say I'm wondering if the Earth
             is flat. That would be a good thing to know.</p>
